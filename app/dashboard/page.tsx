@@ -35,9 +35,9 @@ export default function Dashboard() {
   return (
     <ProtectedRoute>
       <div className="min-h-screen bg-gray-50">
-        <header className="bg-white shadow">
+        <header className="bg-white shadow color-black">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 flex justify-between items-center">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900">BookMarket</h1>
+            <h1 className="text-3xl font-bold tracking-tight text-black">BookMarket</h1>
             <div className="flex items-center gap-4">
               {user?.user_type === "seller" && (
                 <Button asChild>
